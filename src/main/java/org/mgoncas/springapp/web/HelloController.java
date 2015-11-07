@@ -15,6 +15,7 @@ import org.springframework.web.servlet.ModelAndView;
 @Controller
 public class HelloController {
 
+	// log
 	protected final Log logger = LogFactory.getLog(getClass());
 	
     @RequestMapping(value="/hello.htm")
